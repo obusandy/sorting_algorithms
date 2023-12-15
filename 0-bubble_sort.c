@@ -5,7 +5,9 @@
  * ascending order using the Bubble sort algorithm
  * @arry: the array to be sorted
  * @range: the size of the array to be sorted
+ * Return: void
  */
+
 void bubble_sort(int *arry, size_t range)
 {
 	size_t k, i, maxmize = range - 1;
@@ -16,10 +18,6 @@ void bubble_sort(int *arry, size_t range)
 		return;
 	for (k = 0; k < range; k++)
 	{
-		/*
-		 * improves the temporary variable used to save on time
-		 * everytime a huge object appears
-		 */
 		for (i = 0; i < maxmize; i++)
 		{
 			if (arry[i] > arry[i + 1])
