@@ -62,7 +62,8 @@ int lomuto_partition(int *arry, size_t range, int lft, int rght)
  * @lft: The starting index of the subarray to sort.
  * @rght: The ending index of the subarray to sort.
  *
- * Description: This function sorts a sub-array (arry) of integers within specified boundaries (lft and rght)
+ * Description: This function sorts a sub-array (arry)
+ * of integers within specified boundaries (lft and rght)
  * while using the Lomuto partition scheme.
  */
 void lomuto_sort(int *arry, size_t range, int lft, int rght)
